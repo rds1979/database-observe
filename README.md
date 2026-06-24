@@ -17,5 +17,6 @@
 ## Документация
 
 - `AGENTS.md` — правила и инструкции для OpenCode
-- `.opencode/skills/postgres-maintenance/SKILL.md` — ежедневное обслуживание PostgreSQL
-- `.opencode/skills/index-maintenance/SKILL.md` — мониторинг индексов PostgreSQL
+- `.opencode/skills/postgres-maintenance/SKILL.md` — ежедневное обслуживание PostgreSQL (VACUUM FULL + ANALYZE)
+- `.opencode/skills/index-maintenance/SKILL.md` — мониторинг индексов PostgreSQL: невалидные/неиспользуемые индексы, dead tuple bloat, seq scans, staleness VACUUM/ANALYZE, checkpoint и buffer efficiency
+- `.opencode/skills/install-postgresql/SKILL.md` — установка PostgreSQL на удалённый хост через SSH с автоопределением ОС и добавлением официального репозитория PGDG
