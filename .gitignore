@@ -1,6 +1,9 @@
 # Credentials
 opencode.json
 src/db/postgresql.json
+src/db/postgresql-41.json
+
+src/ssh/
 
 # Dependencies
 node_modules/
